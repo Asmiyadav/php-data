@@ -1,0 +1,13 @@
+/* menu css  */
+#left{
+	float:left;
+	width:25%;
+	height:85%;
+	
+	}
+	
+#right{
+	float:right;
+	width:74%;
+	height:100%;
+	}

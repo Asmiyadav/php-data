@@ -20,19 +20,20 @@ body{
 	height:100%;
 	position:absolute;
 	float:left;
-	
 }
 #leftmenu li{
-	list-style: none;
+	list-style: none;	
+}
+
+#leftmenu ul li a{
 	color: black;
 	font-size: 20px;
 	display: block;
 	padding: 15px;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
-
-#leftmenu ul li:hover{
+#leftmenu ul li a:hover{
 	background-color: #b9b1c9;
 	color:white;
 }
@@ -46,25 +47,14 @@ body{
 
 <div id="leftmenu">
 <ul>
-<li><h3>Category</h3></li>
-
-
-<?php
-include ("connection.php");
-
-$select = "Select * FROM category";
-$query = mysqli_query($con, $select);
-
-while($row = mysqli_fetch_array($query))
-{
-	echo "<li>
-	
-	<td><a href='sub_category.php?id=$row[category_name]'>$row[category_name]</a></td>";		
-	
-	echo "</li>";
-	
-}
-?>
+<li><a href="add_category.php">Add Category</a> </li>
+<li><a href="view_category.php">View Category</a> </li>
+<li><a href="add_sub_category.php">Add Sub Category</a> </li>
+<li><a href="view_sub_category.php">View Sub Category</a> </li>
+<li><a href="add_item.php">Add Item</a> </li>
+<li><a href="view_item.php">View Item</a> </li>
+<li><a href="add_user.php">Add Users</a> </li>
+<li><a href="view_user.php">View Users</a> </li>
 
 </ul>
 </div>

@@ -1,0 +1,80 @@
+<style>
+
+body{	
+	margin:0px;
+	padding:0px;
+	}
+
+table{
+	width:70%;
+	background-color: #e4e5de;
+	padding:50px;
+	margin-top:25px;
+	border-radius:20px;
+	}
+
+h1{
+	color:#00F;
+	margin-top:2px;
+	text-align:center;
+	}	
+
+th{
+	font-size:20px;
+	padding: 12px 12px 12px 0;
+    display: inline-block;
+	float:left;
+	
+	}
+	
+tr{
+	height:60px;
+	}	
+	
+input[type=text]{
+    width:90%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+	}
+	
+input[type=text]:focus {
+    border: 2px solid #555;
+	}			
+	
+input[type=password]{
+    width:90%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+	}	
+input[type=password]:focus {
+    border: 2px solid #555;
+	}
+	
+select{
+    width:90%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+	}				
+	
+
+	
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+	font-size:16px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+	margin-top:20px;
+	alignment-adjust:central;
+	}
+	
+input[type=submit]:hover {
+    background-color: #45a049;
+	}	
+	
+</style>

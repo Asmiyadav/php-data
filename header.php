@@ -20,12 +20,12 @@ body {
   float:left;
   color:white;
   text-align:center;
-  padding:20px;
+  padding:12px;
   text-decoration:none;
-  font-size:26px; 
+  font-size:35px; 
   line-height:35px;
   border-radius:15px;
-  margin-top:2px;
+  margin-top:13px;
 }
 
 #header a:hover {
@@ -46,13 +46,9 @@ body {
 <body>
 
 <div id="header">
-<a href="home.php">Prabhat</a>
-<a href="aboutus.php">About Us</a>
-<a href="category.php">Category</a>
-<a href="contactus.php">Contact Us</a>
+<a href="main.php">Admin Pannal</a>    
 
 <div id="header-right">
-    <a href="signup.php">Sign Up</a>
     <a href="logout.php">Log Out</a>
 </div>    
 
